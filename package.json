@@ -8,8 +8,6 @@
     "build": "lerna run build"
   },
   "description": "test dynamic component",
-  "module": "dist/coemponents.es.js",
-  "umd:main": "dist/coemponents.js",
   "files": [
     "dist"
   ],
