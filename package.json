@@ -1,5 +1,5 @@
 {
-  "name": "@viniazvd/dynamic-components-test",
+  "name": "coemponents",
   "version": "0.1.0",
   "private": true,
   "license": "MIT",
@@ -8,12 +8,8 @@
     "build": "lerna run build"
   },
   "description": "test dynamic component",
-  "cdn": "dist/dynamic-components-test.js",
-  "main": "dist/dynamic-components-test.cjs.js",
-  "unpkg": "dist/dynamic-components-test.js",
-  "module": "dist/dynamic-components-test.es.js",
-  "jsdelivr": "dist/dynamic-components-test.js",
-  "umd:main": "dist/dynamic-components-test.js",
+  "module": "dist/coemponents.es.js",
+  "umd:main": "dist/coemponents.js",
   "files": [
     "dist"
   ],
