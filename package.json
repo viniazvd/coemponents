@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "build": "lerna run build"
+    "build": "lerna run build && rollup -c"
   },
   "description": "test dynamic component",
   "files": [
@@ -19,15 +19,6 @@
     "email": "viniazvd@gmail.com"
   },
   "devDependencies": {
-    "@vue/cli-plugin-eslint": "^3.0.0",
-    "@vue/eslint-config-standard": "^3.0.3",
-    "bili": "^4.7.3",
-    "lerna": "^3.13.4",
-    "node-sass": "^4.9.3",
-    "rollup-plugin-sass": "^1.2.2",
-    "rollup-plugin-uglify": "^6.0.2",
-    "rollup-plugin-vue": "^5.0.0",
-    "vue": "^2.6.10",
-    "vue-template-compiler": "^2.5.17"
+    "lerna": "^3.13.4"
   }
 }

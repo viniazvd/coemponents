@@ -12,7 +12,7 @@
     "email": "viniazvd@gmail.com"
   },
   "scripts": {
-    "build": "vue-cli-service build"
+    "build": "rollup -c"
   },
   "dependencies": {
     "vue": "^2.6.10"
@@ -23,7 +23,11 @@
     "@vue/cli-service": "^3.7.0",
     "@vue/eslint-config-standard": "^3.0.3",
     "node-sass": "^4.9.3",
+    "rollup": "^1.11.3",
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-node-resolve": "^4.2.3",
     "rollup-plugin-sass": "^1.2.2",
+    "rollup-plugin-terser": "^4.0.4",
     "rollup-plugin-uglify": "^6.0.2",
     "rollup-plugin-vue": "^5.0.0",
     "sass-loader": "^7.1.0",
