@@ -1,0 +1,30 @@
+{
+  "name": "@dynamic-components-test/title",
+  "private": true,
+  "license": "MIT",
+  "version": "0.1.0",
+  "description": "title-component",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": {
+    "name": "Vinicius Azevedo",
+    "email": "viniazvd@gmail.com"
+  },
+  "scripts": {
+    "build": "bili"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.7.0",
+    "@vue/cli-plugin-eslint": "^3.0.0",
+    "@vue/cli-service": "^3.7.0",
+    "@vue/eslint-config-standard": "^3.0.3",
+    "node-sass": "^4.9.3",
+    "rollup-plugin-node-resolve": "^4.2.3",
+    "rollup-plugin-sass": "^1.2.2",
+    "rollup-plugin-uglify": "^6.0.2",
+    "rollup-plugin-vue": "^5.0.0",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
