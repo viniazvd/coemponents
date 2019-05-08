@@ -4,9 +4,6 @@
   "version": "0.1.3",
   "description": "card-component",
   "repository": "https://github.com/viniazvd/coemponents/tree/master/packages/ACard",
-  "publishConfig": {
-    "access": "public"
-  },
   "author": {
     "name": "Vinicius Azevedo",
     "email": "viniazvd@gmail.com"
@@ -33,5 +30,5 @@
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.5.17"
   },
-  "gitHead": "ac989ffdd83df51b939e3a1d57e33d0d03bf009c"
+  "gitHead": "a9d85974b0b6de7b5617fa4f8a1f684a4456ba41"
 }
