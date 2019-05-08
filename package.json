@@ -1,6 +1,5 @@
 {
   "name": "coemponents",
-  "private": true,
   "version": "0.2.6",
   "license": "MIT",
   "main": "dist/bundle.js",
