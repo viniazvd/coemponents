@@ -3,6 +3,7 @@
   "license": "MIT",
   "version": "0.1.2",
   "description": "card-component",
+  "repository": "https://github.com/viniazvd/coemponents/tree/master/packages/ACard",
   "publishConfig": {
     "access": "public"
   },
@@ -32,5 +33,5 @@
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.5.17"
   },
-  "gitHead": "e6ace2702b4c3d6d95f330f2dd51905ebe349698"
+  "gitHead": "ac989ffdd83df51b939e3a1d57e33d0d03bf009c"
 }

@@ -7,6 +7,9 @@
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build && rollup -c && lerna publish from-git --require-scripts"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "test dynamic component",
   "workspaces": ["packages/*"],
   "author": {
