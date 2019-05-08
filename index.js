@@ -1,12 +1,11 @@
-import ACard from './packages/ACard/dist/index.js'
-import ATitle from './packages/ATitle/dist/index.js'
+import * as components from './packages/index.js'
 
-export default {
-  ACard,
-  ATitle
-}
+const defineComponent = (Vue, [name, component]) => console.log(Vue, name, component) || Vue.component(name, component)
 
-export {
-  ACard,
-  ATitle
-}
+const install = Vue => Object
+  .entries(components)
+  .forEach(defineComponent)
+
+export * from './packages/index.js'
+
+export default install
