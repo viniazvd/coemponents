@@ -1,7 +1,9 @@
 {
+  "private": true,
   "name": "coemponents",
   "version": "0.1.5",
   "license": "MIT",
+  "main": "dist/bundle.js",
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build && rollup -c"
