@@ -1,5 +1,6 @@
 {
   "name": "@coemponents/title",
+  "private": false,
   "license": "MIT",
   "version": "0.1.2",
   "description": "title-component",

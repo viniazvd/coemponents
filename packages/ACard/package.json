@@ -4,6 +4,9 @@
   "license": "MIT",
   "version": "0.1.2",
   "description": "card-component",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": "https://github.com/viniazvd/coemponents/tree/master/packages/ACard",
   "author": {
     "name": "Vinicius Azevedo",

@@ -5,7 +5,7 @@
   "main": "dist/bundle.js",
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "build": "lerna run build && rollup -c && lerna publish"
+    "build": "lerna run build && rollup -c && lerna publish -- --access public"
   },
   "publishConfig": {
     "access": "public"
