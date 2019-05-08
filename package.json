@@ -5,7 +5,7 @@
   "main": "dist/bundle.js",
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "build": "lerna run build && rollup -c"
+    "build": "lerna run build && rollup -c && lerna publish from-git --require-scripts"
   },
   "description": "test dynamic component",
   "workspaces": ["packages/*"],
