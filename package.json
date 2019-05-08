@@ -1,11 +1,11 @@
 {
   "name": "coemponents",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "license": "MIT",
-  "main": "dist/bundle.js",
+  "main": "packages",
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "build": "lerna run build && rollup -c"
+    "build": "lerna run build"
   },
   "description": "test dynamic component",
   "files": [

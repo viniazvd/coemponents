@@ -6,7 +6,7 @@ import { terser } from 'rollup-plugin-terser'
 export default {
   input: 'index.js',
   output: {
-    file: 'dist/index.js',
+    file: 'dist/title.js',
     format: 'cjs',
     sourcemap: true
   },
