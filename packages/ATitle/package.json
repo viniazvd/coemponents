@@ -31,5 +31,6 @@
     "rollup-plugin-vue": "^5.0.0",
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.5.17"
-  }
+  },
+  "gitHead": "e6ace2702b4c3d6d95f330f2dd51905ebe349698"
 }
