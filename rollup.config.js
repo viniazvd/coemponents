@@ -4,9 +4,9 @@ import VuePlugin from 'rollup-plugin-vue'
 import { terser } from 'rollup-plugin-terser'
 
 export default {
-  input: 'main.js',
+  input: 'index.js',
   output: {
-    file: 'index.js',
+    file: 'dist/bundle.js',
     format: 'cjs',
     sourcemap: true
   },
