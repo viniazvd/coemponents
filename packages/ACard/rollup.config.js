@@ -1,6 +1,7 @@
 import postcss from 'postcss'
 import vue from 'rollup-plugin-vue'
 import sass from 'rollup-plugin-sass'
+import css from 'rollup-plugin-css-only'
 import autoprefixer from 'autoprefixer'
 import commonjs from 'rollup-plugin-commonjs'
 import { terser } from 'rollup-plugin-terser'
@@ -16,6 +17,7 @@ export default {
   plugins: [
     resolve(),
     commonjs(),
+    css({ output: 'dist/card.css' }),
     vue({ css: false }),
     terser(),
     sass({
