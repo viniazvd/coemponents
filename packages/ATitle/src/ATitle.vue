@@ -1,5 +1,5 @@
 <template>
-  <div class="a-title">title</div>
+  <div class="a-title">@coemponent/title</div>
 </template>
 
 <script>
