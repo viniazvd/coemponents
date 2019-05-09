@@ -1,7 +1,10 @@
-import resolve from 'rollup-plugin-node-resolve'
-import commonjs from 'rollup-plugin-commonjs'
+import postcss from 'postcss'
+import sass from 'rollup-plugin-sass'
+import autoprefixer from 'autoprefixer'
 import VuePlugin from 'rollup-plugin-vue'
+import commonjs from 'rollup-plugin-commonjs'
 import { terser } from 'rollup-plugin-terser'
+import resolve from 'rollup-plugin-node-resolve'
 
 export default {
   input: 'src/index.js',
@@ -14,6 +17,12 @@ export default {
     resolve(),
     commonjs(),
     VuePlugin(),
-    terser()
+    terser(),
+    sass({
+      output: 'dist/card.css',
+      processor: css => postcss([autoprefixer])
+        .process(css)
+        .then(result => result.css)
+    })
   ]
 }
