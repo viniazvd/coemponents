@@ -4,6 +4,9 @@
   "version": "0.1.4",
   "description": "card-component",
   "main": "dist/card.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/viniazvd/coemponents/tree/master/packages/ACard"
@@ -30,5 +33,6 @@
     "rollup-plugin-vue": "^5.0.0",
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.5.17"
-  }
+  },
+  "gitHead": "a566e9a9faa78f2681dd0dc9f4a2b14d45d367c7"
 }

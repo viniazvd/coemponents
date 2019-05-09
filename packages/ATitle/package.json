@@ -3,7 +3,11 @@
   "private": false,
   "license": "MIT",
   "version": "0.1.4",
+  "main": "dist/title.js",
   "description": "title-component",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": "https://github.com/viniazvd/coemponents/tree/master/packages/ATitle",
   "author": {
     "name": "Vinicius Azevedo",
@@ -31,5 +35,5 @@
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.5.17"
   },
-  "gitHead": "a30836de67ba8eef07befbe00e43b91bb3619648"
+  "gitHead": "a566e9a9faa78f2681dd0dc9f4a2b14d45d367c7"
 }
