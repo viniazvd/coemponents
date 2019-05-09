@@ -4,3 +4,6 @@ node_modules
 
 # Log files
 yarn-error.log*
+
+# Lerna
+lerna-debug.log
