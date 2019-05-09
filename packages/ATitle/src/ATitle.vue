@@ -1,5 +1,5 @@
 <template>
-  <div class="a-title">component-title</div>
+  <div class="a-title">title</div>
 </template>
 
 <script>
