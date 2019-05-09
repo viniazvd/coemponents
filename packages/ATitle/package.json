@@ -2,7 +2,7 @@
   "name": "@coemponents/title",
   "private": false,
   "license": "MIT",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "main": "dist/title.js",
   "description": "title-component",
   "publishConfig": {
