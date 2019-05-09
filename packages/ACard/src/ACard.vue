@@ -1,5 +1,5 @@
 <template>
-  <div class="a-card">coe-card</div>
+  <div class="a-card">component-card</div>
 </template>
 
 <script>

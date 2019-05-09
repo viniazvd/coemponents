@@ -1,5 +1,5 @@
 <template>
-  <div class="a-title">coe-title</div>
+  <div class="a-title">component-title</div>
 </template>
 
 <script>
