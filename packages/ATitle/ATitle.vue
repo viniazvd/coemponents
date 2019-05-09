@@ -1,5 +1,5 @@
 <template>
-  <div>title boladao</div>
+  <div class="a-title">coe-title</div>
 </template>
 
 <script>
@@ -11,14 +11,6 @@ export default {
 <style lang="scss">
 .a-title {
   display: flex;
-  margin: 0;
-
-  & > .text {}
-
-  & > .icon {
-    margin-right: 10px;
-    vertical-align: bottom;
-    fill: black;
-  }
+  color: red;
 }
 </style>

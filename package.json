@@ -3,16 +3,13 @@
   "private": true,
   "version": "0.2.6",
   "license": "MIT",
-  "main": "dist/bundle.js",
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "build": "lerna run build && rollup -c && lerna publish"
+    "build": "lerna run build",
+    "postbuild": "lerna publish"
   },
-  "publishConfig": {
-    "access": "public"
-  },
+  "workspaces": [ "packages/*" ],
   "description": "test dynamic component",
-  "workspaces": ["packages/*"],
   "author": {
     "name": "Vinicius Azevedo",
     "email": "viniazvd@gmail.com"
