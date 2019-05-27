@@ -1,5 +1,4 @@
 import vue from 'rollup-plugin-vue'
-import autoprefixer from 'autoprefixer'
 import css from 'rollup-plugin-css-only'
 import commonjs from 'rollup-plugin-commonjs'
 import { terser } from 'rollup-plugin-terser'
@@ -15,16 +14,8 @@ export default {
   plugins: [
     resolve(),
     commonjs(),
-    vue({
-      css: false,
-      style: {
-        trim: false,
-        postcssPlugins: [
-          autoprefixer({ browsers: ['> 0.00001%'] })
-        ]
-      }
-    }),
     css({ output: 'dist/card.css' }),
+    vue({ css: false }),
     terser()
   ]
 }
