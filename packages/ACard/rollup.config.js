@@ -19,7 +19,7 @@ export default {
     commonjs(),
     // css({ output: 'dist/card.css' }),
     vue({
-      // css: false,
+      css: false
       // style: {
       //   trim: false,
       //   postcssPlugins: [
