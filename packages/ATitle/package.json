@@ -16,24 +16,12 @@
     "build": "rollup -c"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.7.0",
-    "@vue/cli-plugin-eslint": "^3.0.0",
-    "@vue/cli-service": "^3.7.0",
-    "@vue/eslint-config-standard": "^3.0.3",
-    "autoprefixer": "^9.5.1",
-    "node-sass": "^4.9.3",
-    "postcss": "^7.0.16",
     "rollup": "^1.11.3",
     "rollup-plugin-commonjs": "^9.3.4",
     "rollup-plugin-css-only": "^1.0.0",
     "rollup-plugin-node-resolve": "^4.2.3",
-    "rollup-plugin-sass": "^1.2.2",
     "rollup-plugin-terser": "^4.0.4",
-    "rollup-plugin-uglify": "^6.0.2",
-    "rollup-plugin-vue": "^5.0.0",
-    "sass-loader": "^7.1.0",
-    "vue": "^2.6.10",
-    "vue-template-compiler": "^2.5.17"
+    "rollup-plugin-vue": "^5.0.0"
   },
   "gitHead": "a566e9a9faa78f2681dd0dc9f4a2b14d45d367c7"
 }
