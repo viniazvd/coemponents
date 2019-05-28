@@ -9,24 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/convenia/frontend/convenia-components/tree/master/packages/CApp"
+    "url": "https://github.com/viniazvd/coemponents/tree/master/packages/AApp"
   },
   "author": "Vinicius Azevedo <viniazvd@gmail.com>",
   "scripts": {
     "build": "rollup -c"
   },
   "devDependencies": {
-    "@vue/eslint-config-standard": "^3.0.3",
-    "node-sass": "^4.9.3",
     "rollup": "^1.11.3",
     "rollup-plugin-commonjs": "^9.3.4",
     "rollup-plugin-css-only": "^1.0.0",
     "rollup-plugin-node-resolve": "^4.2.3",
     "rollup-plugin-terser": "^4.0.4",
-    "rollup-plugin-vue": "^5.0.0",
-    "sass-loader": "^7.1.0",
-    "vue": "^2.6.10",
-    "vue-template-compiler": "^2.5.17"
+    "rollup-plugin-vue": "^5.0.0"
   },
   "gitHead": "98257bb3a2142754bb0e79c04ce730e983029331"
 }
