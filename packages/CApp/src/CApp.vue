@@ -86,6 +86,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import "../../styles/convenia.mixins.scss";
+
 .c-app {
   position: relative;
   box-sizing: border-box;
