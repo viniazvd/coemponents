@@ -21,7 +21,9 @@
     "rollup-plugin-css-only": "^1.0.0",
     "rollup-plugin-node-resolve": "^4.2.3",
     "rollup-plugin-terser": "^4.0.4",
-    "rollup-plugin-vue": "^5.0.0"
+    "rollup-plugin-vue": "^5.0.0",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.5.17"
   },
   "gitHead": "9260f74d1f97dd887cd269086cb30c0f72de2253"
 }
