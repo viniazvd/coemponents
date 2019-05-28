@@ -5,16 +5,16 @@ import { terser } from 'rollup-plugin-terser'
 import resolve from 'rollup-plugin-node-resolve'
 
 export default {
-  input: 'src/index.js',
-  output: {
-    file: 'dist/title.js',
-    format: 'cjs',
-    sourcemap: true
-  },
+  input: 'convenia/mixins.scss',
+  // output: {
+  //   file: 'dist/mixins.js',
+  //   format: 'cjs',
+  //   sourcemap: true
+  // },
   plugins: [
     resolve(),
     commonjs(),
-    css({ output: 'dist/title.css' }),
+    css({ output: 'dist/mixins.css' }),
     vue({ css: false }),
     terser()
   ]

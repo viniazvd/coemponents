@@ -1,0 +1,15 @@
+$opacities: (1, 0.75, 0.5, 0.25);
+
+@mixin pulse-animation($radius) {
+  @each $opacity in $opacities {
+    @keyframes pulse-#{index($opacities, $opacity)} {
+      0% { opacity: 0; }
+      10% { opacity: $opacity; }
+      80% { opacity: 0; }
+      100% {
+        width: calc(100% + #{$radius});
+        height: calc(100% + #{$radius});
+      }
+    }
+  }
+}

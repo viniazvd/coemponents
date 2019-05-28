@@ -1,0 +1,26 @@
+{
+  "name": "@coemponents/styles",
+  "license": "MIT",
+  "version": "0.1.0",
+  "main": "dist/styles.js",
+  "description": "styles-component",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "https://github.com/viniazvd/coemponents/tree/master/packages/styles",
+  "author": {
+    "name": "Vinicius Azevedo",
+    "email": "viniazvd@gmail.com"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "^1.11.3",
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-css-only": "^1.0.0",
+    "rollup-plugin-node-resolve": "^4.2.3",
+    "rollup-plugin-terser": "^4.0.4",
+    "rollup-plugin-vue": "^5.0.0"
+  }
+}
