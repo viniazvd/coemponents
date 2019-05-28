@@ -3,16 +3,11 @@
 </template>
 
 <script>
-import CSidebar from '../CSidebar'
-import CHeader from '../CHeader'
-import COverlay from '../COverlay'
-
 /**
  * The application's layout wrapper.
  */
 export default {
   name: 'CApp',
-  components: { CSidebar, CHeader, COverlay },
 
   props: {
     /**
@@ -86,7 +81,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../../styles/convenia.mixins.scss";
+@import "../../../styles/convenia/mixins.scss";
 
 .c-app {
   position: relative;
