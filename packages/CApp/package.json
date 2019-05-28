@@ -1,7 +1,7 @@
 {
   "name": "@coemponents/app",
   "license": "MIT",
-  "version": "0.1.23",
+  "version": "0.1.25",
   "description": "app-component",
   "main": "dist/app.js",
   "publishConfig": {
