@@ -7,76 +7,7 @@
  * The application's layout wrapper.
  */
 export default {
-  name: 'CApp',
-
-  props: {
-    /**
-     * Wheter tho show the sidebar or not.
-     */
-    showSidebar: {
-      type: Boolean,
-      required: true
-    },
-
-    /**
-     * The items of the CSidebar
-     */
-    sidebarItems: {
-      type: [Array, Object],
-      default: () => ([])
-    },
-
-    /**
-     * The height of the header.
-     */
-    headerHeight: {
-      type: [String, Number],
-      default: 70
-    },
-
-    /**
-     * The height of header's subMenu section.
-     */
-    subMenuHeight: {
-      type: [String, Number],
-      default: 50
-    }
-  },
-
-  data () {
-    return {
-      position: 0,
-      lastPosition: 0,
-      showHeader: true,
-    }
-  },
-
-  computed: {
-    contentMarginTop () {
-      const menuHeight = +(this.headerHeight || 0) + +(this.subMenuHeight || 0)
-      const result = this.showHeader ? menuHeight : this.subMenuHeight
-
-      return result + 'px'
-    }
-  },
-
-  methods: {
-    handleScroll () {
-      const { scrollTop, clientHeight, scrollHeight } = this.$refs.appContent
-      this.lastPosition = this.position
-      this.position = scrollTop
-
-      if (scrollHeight <= window.innerHeight + this.headerHeight) {
-        this.showHeader = true
-      } else if (this.position < this.headerHeight) {
-        this.showHeader = true
-      } else if (this.position >= scrollHeight - clientHeight - this.headerHeight) {
-        this.showHeader = false
-      } else {
-        this.showHeader = this.lastPosition > this.position
-      }
-    }
-  }
+  name: 'CApp'
 }
 </script>
 
