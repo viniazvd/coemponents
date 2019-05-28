@@ -1,7 +1,7 @@
 {
   "name": "@coemponents/app",
   "license": "MIT",
-  "version": "0.1.22",
+  "version": "0.1.23",
   "description": "app-component",
   "main": "dist/card.js",
   "publishConfig": {
