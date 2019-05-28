@@ -226,8 +226,8 @@ $breakpoints: (
     @each $breakpoint in $breakpoints {
       @media only screen and (min-width: $breakpoint) {
         $rows: index($breakpoints, $breakpoint);
-        max-width: calc((100% / #{$rows}) - #{$gutter};
-        min-width: calc((100% / #{$rows}) - #{$gutter};
+        max-width: calc((100% / #{$rows}) - #{$gutter});
+        min-width: calc((100% / #{$rows}) - #{$gutter});
       }
     }
   }
