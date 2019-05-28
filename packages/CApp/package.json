@@ -1,7 +1,7 @@
 {
   "name": "@convenia-components/app",
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "0.1.20",
   "description": "app-component",
   "main": "dist/card.js",
   "publishConfig": {
