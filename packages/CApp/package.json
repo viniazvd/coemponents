@@ -1,5 +1,5 @@
 {
-  "name": "@convenia-components/app",
+  "name": "@coemponents/app",
   "license": "MIT",
   "version": "0.1.20",
   "description": "app-component",
@@ -28,5 +28,5 @@
     "vue": "^2.6.10",
     "vue-template-compiler": "^2.5.17"
   },
-  "gitHead": "a566e9a9faa78f2681dd0dc9f4a2b14d45d367c7"
+  "gitHead": "98257bb3a2142754bb0e79c04ce730e983029331"
 }
