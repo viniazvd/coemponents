@@ -9,17 +9,14 @@ import scss from 'rollup-plugin-scss'
 import postcss from 'postcss'
 import autoprefixer from 'autoprefixer'
 
-// import css from 'rollup-plugin-css-only'
 import { terser } from 'rollup-plugin-terser'
-
-// import { uglify } from 'rollup-plugin-uglify'
 
 export default {
   input: 'src/index.js',
   output: {
     name: 'ACard',
     file: 'dist/js/card.js',
-    format: 'cjs',
+    format: 'esm',
     sourcemap: true
   },
   plugins: [
@@ -33,17 +30,6 @@ export default {
         .process(css)
         .then(result => result.css)
     }),
-
-    // sass({
-    //   // output: 'dist/css/card.css',
-    //   // Processor will be called with two arguments:
-    //   // - style: the compiled css
-    //   // - id: import id
-    //   processor: css => postcss([autoprefixer])
-    //   .process(css)
-    //   .then(result => result.css)
-    // }),
-    // uglify()
     terser()
   ]
 }
