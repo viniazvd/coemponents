@@ -1,6 +1,7 @@
 {
   "packages": [
-    "packages/*"
+    "packages/components/*",
+    "packages/directives/*"
   ],
   "command": {
     "publish": {
