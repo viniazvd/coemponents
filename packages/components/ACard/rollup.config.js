@@ -26,8 +26,9 @@ export default {
     resolve(),
     commonjs(),
     babel({ exclude: 'node_modules/**' }),
-    vue(),
+    vue({ css: false }),
     sass({
+      output: true,
       // output: 'dist/css/card.css',
       // Processor will be called with two arguments:
       // - style: the compiled css
