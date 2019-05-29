@@ -5,11 +5,11 @@ import babel from 'rollup-plugin-babel'
 
 import vue from 'rollup-plugin-vue'
 
-// import sass from 'rollup-plugin-sass'
+import sass from 'rollup-plugin-sass'
 // import postcss from 'postcss'
 // import autoprefixer from 'autoprefixer'
 
-import css from 'rollup-plugin-css-only'
+// import css from 'rollup-plugin-css-only'
 import { terser } from 'rollup-plugin-terser'
 
 // import { uglify } from 'rollup-plugin-uglify'
@@ -27,7 +27,7 @@ export default {
     commonjs(),
     babel({ exclude: 'node_modules/**' }),
     vue({ css: false }),
-    css({ output: 'dist/css/card.css' }),
+    sass({ output: 'dist/css/card.css' }),
     // sass({
     //   // output: 'dist/css/card.css',
     //   // Processor will be called with two arguments:
