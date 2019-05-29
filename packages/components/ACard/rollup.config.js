@@ -10,9 +10,9 @@ import postcss from 'postcss'
 import autoprefixer from 'autoprefixer'
 
 import css from 'rollup-plugin-css-only'
-// import { terser } from 'rollup-plugin-terser'
+import { terser } from 'rollup-plugin-terser'
 
-import { uglify } from 'rollup-plugin-uglify'
+// import { uglify } from 'rollup-plugin-uglify'
 
 export default {
   input: 'src/index.js',
@@ -37,7 +37,7 @@ export default {
         .then(result => result.css)
     }),
     css({ output: false }),
-    uglify()
-    // terser()
+    // uglify()
+    terser()
   ]
 }
