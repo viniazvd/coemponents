@@ -8,7 +8,10 @@
     "build": "lerna run build",
     "postbuild": "lerna publish"
   },
-  "workspaces": [ "packages/components/*" ],
+  "workspaces": [
+    "packages/components/*",
+    "packages/directives/*"
+  ],
   "description": "test dynamic component",
   "author": {
     "name": "Vinicius Azevedo",
