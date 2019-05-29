@@ -28,7 +28,7 @@ export default {
     babel({ exclude: 'node_modules/**' }),
     vue(),
     sass({
-      output: 'dist/css/card.css',
+      // output: 'dist/css/card.css',
       // Processor will be called with two arguments:
       // - style: the compiled css
       // - id: import id
