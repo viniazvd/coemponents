@@ -1,0 +1,21 @@
+{
+  "name": "@coemponents/click-out-side",
+  "license": "MIT",
+  "version": "0.1.27",
+  "description": "click-out-side-directive",
+  "main": "dist/click-out-side.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viniazvd/coemponents/tree/master/packages/ClickOutSide"
+  },
+  "author": "Vinicius Azevedo <viniazvd@gmail.com>",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "^1.11.3"
+  }
+}
