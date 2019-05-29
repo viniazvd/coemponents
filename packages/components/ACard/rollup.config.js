@@ -6,10 +6,8 @@ import babel from 'rollup-plugin-babel'
 import vue from 'rollup-plugin-vue'
 
 import scss from 'rollup-plugin-scss'
-
-// import sass from 'rollup-plugin-sass'
-// import postcss from 'postcss'
-// import autoprefixer from 'autoprefixer'
+import postcss from 'postcss'
+import autoprefixer from 'autoprefixer'
 
 // import css from 'rollup-plugin-css-only'
 import { terser } from 'rollup-plugin-terser'
@@ -29,7 +27,12 @@ export default {
     commonjs(),
     babel({ exclude: 'node_modules/**' }),
     vue({ css: false }),
-    scss({ output: 'dist/css/card.css' }),
+    scss({
+      output: 'dist/css/card.css',
+      processor: css => postcss([autoprefixer])
+        .process(css)
+        .then(result => result.css)
+    }),
 
     // sass({
     //   // output: 'dist/css/card.css',
