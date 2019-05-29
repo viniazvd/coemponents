@@ -16,9 +16,11 @@
     "build": "rollup -c"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.5",
     "autoprefixer": "^9.5.1",
     "postcss": "^7.0.16",
     "rollup": "^1.11.3",
+    "rollup-plugin-babel": "^4.3.2",
     "rollup-plugin-commonjs": "^9.3.4",
     "rollup-plugin-css-only": "^1.0.0",
     "rollup-plugin-node-resolve": "^4.2.3",

@@ -1,14 +1,18 @@
 import resolve from 'rollup-plugin-node-resolve'
 import commonjs from 'rollup-plugin-commonjs'
 
+import babel from 'rollup-plugin-babel'
+
 import vue from 'rollup-plugin-vue'
 
 import sass from 'rollup-plugin-sass'
+import postcss from 'postcss'
+import autoprefixer from 'autoprefixer'
+
 import css from 'rollup-plugin-css-only'
 // import { terser } from 'rollup-plugin-terser'
 
-import autoprefixer from 'autoprefixer'
-import postcss from 'postcss'
+import { uglify } from 'rollup-plugin-uglify'
 
 export default {
   input: 'src/index.js',
@@ -21,6 +25,7 @@ export default {
   plugins: [
     resolve(),
     commonjs(),
+    babel({ exclude: 'node_modules/**' }),
     vue({ css: false }),
     sass({
       output: 'dist/css/card.css',
