@@ -26,16 +26,16 @@ export default {
     resolve(),
     commonjs(),
     babel({ exclude: 'node_modules/**' }),
-    vue({ css: false }),
     // css({ output: false }),
+    vue({ css: false }),
     sass({
-      output: 'dist/css/card.css',
+      // output: 'dist/css/card.css',
       // Processor will be called with two arguments:
       // - style: the compiled css
       // - id: import id
       processor: css => postcss([autoprefixer])
-        .process(css)
-        .then(result => result.css)
+      .process(css)
+      .then(result => result.css)
     }),
     // uglify()
     terser()
