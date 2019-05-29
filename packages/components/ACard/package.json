@@ -3,7 +3,7 @@
   "license": "MIT",
   "version": "0.1.38",
   "description": "card-component",
-  "main": "dist/card.js",
+  "main": "dist/js/card.js",
   "publishConfig": {
     "access": "public"
   },
