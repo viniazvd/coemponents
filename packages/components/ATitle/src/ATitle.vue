@@ -11,7 +11,7 @@ export default {
 <style lang="scss">
 .a-title {
   display: flex;
-  border: 1px solid black;
+  border: 2px solid black;
   color: red;
 }
 </style>

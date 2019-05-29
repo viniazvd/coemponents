@@ -26,7 +26,7 @@ export default {
   width: 100%;
 
   & > .sidebar {
-    width: 260px;
+    width: 250px;
     flex-shrink: 0;
     transition: width .5s;
 

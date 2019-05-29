@@ -11,7 +11,7 @@ export default {
 
 <style lang="scss">
 .a-card {
-  border-radius: 4px;
+  border-radius: 5px;
   background-color: red;
   box-shadow: 1px 1px 4px 0 black;
 }
