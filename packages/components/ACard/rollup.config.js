@@ -5,7 +5,9 @@ import babel from 'rollup-plugin-babel'
 
 import vue from 'rollup-plugin-vue'
 
-import sass from 'rollup-plugin-sass'
+import scss from 'rollup-plugin-scss'
+
+// import sass from 'rollup-plugin-sass'
 // import postcss from 'postcss'
 // import autoprefixer from 'autoprefixer'
 
@@ -27,7 +29,8 @@ export default {
     commonjs(),
     babel({ exclude: 'node_modules/**' }),
     vue({ css: false }),
-    sass({ output: 'dist/css/card.css' }),
+    scss({ output: 'dist/css/card.css' }),
+
     // sass({
     //   // output: 'dist/css/card.css',
     //   // Processor will be called with two arguments:
