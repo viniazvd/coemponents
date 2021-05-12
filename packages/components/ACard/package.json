@@ -18,7 +18,7 @@
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "autoprefixer": "^9.5.1",
-    "postcss": "^7.0.16",
+    "postcss": "^8.2.10",
     "rollup": "^1.11.3",
     "rollup-plugin-babel": "^4.3.2",
     "rollup-plugin-commonjs": "^9.3.4",
